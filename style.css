@@ -188,38 +188,101 @@ a {
 }
 
 .contact {
-  padding-top: 10px;
-  margin: auto;
-  justify-content: space-between;
+  padding: 2rem;
+  margin-left: 10%;
+  min-height: 100vh;
+  width: 100vw;
 }
 
-.nam {
+.ig {
+  padding-top: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  min-height: 110vh;
+  width: 100vw;
+
+}
+form{
+ 
+  padding-top: 2rem;
+  margin: 1rem 50rem;
+  border-radius: 1rem;
+ 
+}
+
+form .nam {
   color: orange;
   font-size: 1em;
   font-weight: 300;
+  position: relative;
+  text-align: center;
+  
 }
 
-.em {
+form .em {
   color: orange;
   font-size: 1em;
   font-weight: 300;
+  position: relative;
+  text-align: center;
 }
 
-.ad {
+form .ad {
   color: orange;
   font-size: 1em;
   font-weight: 300;
+  position: relative;
+  text-align: center;
 }
 
-.mes {
+form .mes {
   color: orange;
   font-size: 1em;
   font-weight: 300;
+  position: relative;
+  text-align: center;
 }
+.mes, textarea{
+  outline: none;
+  border: .2rem solid #333;
+  border-radius: .2rem;
+  margin: 2rem 0;
+  padding: 0 1rem;
+  background: none;
+  width: 200%;
+  
+}
+textarea{
+  padding: 1rem;
+  resize: horizontal;
+  height: 6rem;
+}
+
+form [type="submit"] {
+  font-size: 1em;
+  color: #fff;
+  background: #ff0157;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  
+  
+}
+
+[type="submit"]:hover {
+  letter-spacing: 6px;
+}
+
 
 footer {
   background-color: rgba(0, 0, 0, 0.342);
-  width: 1024px;
+  margin-top: 0%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
